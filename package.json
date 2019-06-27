@@ -1,27 +1,16 @@
 {
-  "name": "travis-test",
+  "name": "test",
   "version": "1.0.0",
-  "description": "test-travis",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm index.js",
-    "test": "mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ODevCT/travis-test.git"
+    "test": "istanbul cover node_modules/mocha/bin/_mocha"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ODevCT/travis-test/issues"
-  },
-  "homepage": "https://github.com/ODevCT/travis-test#readme",
   "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.1.4"
+    "istanbul": "^0.4.5",
+    "mocha": "^6.0.2"
   }
 }
